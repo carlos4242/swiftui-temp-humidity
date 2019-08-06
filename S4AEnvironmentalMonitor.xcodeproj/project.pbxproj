@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4EDD1322F9BF7F00DE2480 /* EnvironmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EDD1222F9BF7F00DE2480 /* EnvironmentModel.swift */; };
+		8F4EDD2022F9C31E00DE2480 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EDD1622F9C31E00DE2480 /* ORSSerialPacketDescriptor.m */; };
+		8F4EDD2122F9C31E00DE2480 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EDD1822F9C31E00DE2480 /* ORSSerialBuffer.m */; };
+		8F4EDD2222F9C31E00DE2480 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EDD1922F9C31E00DE2480 /* ORSSerialRequest.m */; };
+		8F4EDD2322F9C31E00DE2480 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EDD1A22F9C31E00DE2480 /* ORSSerialPortManager.m */; };
+		8F4EDD2422F9C31E00DE2480 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EDD1B22F9C31E00DE2480 /* ORSSerialPort.m */; };
 		8FA8B6CF22F8408A00B2E1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8B6CE22F8408A00B2E1A8 /* AppDelegate.swift */; };
 		8FA8B6D122F8408A00B2E1A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8B6D022F8408A00B2E1A8 /* ContentView.swift */; };
 		8FA8B6D322F8408C00B2E1A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8B6D222F8408C00B2E1A8 /* Assets.xcassets */; };
@@ -15,6 +21,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F4EDD1222F9BF7F00DE2480 /* EnvironmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModel.swift; sourceTree = "<group>"; };
+		8F4EDD1622F9C31E00DE2480 /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		8F4EDD1722F9C31E00DE2480 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		8F4EDD1822F9C31E00DE2480 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		8F4EDD1922F9C31E00DE2480 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		8F4EDD1A22F9C31E00DE2480 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		8F4EDD1B22F9C31E00DE2480 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		8F4EDD1C22F9C31E00DE2480 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		8F4EDD1D22F9C31E00DE2480 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
+		8F4EDD1E22F9C31E00DE2480 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		8F4EDD1F22F9C31E00DE2480 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		8F4EDD2522F9CB9B00DE2480 /* ERM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERM.h; sourceTree = "<group>"; };
 		8FA8B6CB22F8408A00B2E1A8 /* S4AEnvironmentalMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S4AEnvironmentalMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA8B6CE22F8408A00B2E1A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FA8B6D022F8408A00B2E1A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F4EDD1522F9C31E00DE2480 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				8F4EDD1622F9C31E00DE2480 /* ORSSerialPacketDescriptor.m */,
+				8F4EDD1722F9C31E00DE2480 /* ORSSerialPort.h */,
+				8F4EDD1822F9C31E00DE2480 /* ORSSerialBuffer.m */,
+				8F4EDD1922F9C31E00DE2480 /* ORSSerialRequest.m */,
+				8F4EDD1A22F9C31E00DE2480 /* ORSSerialPortManager.m */,
+				8F4EDD1B22F9C31E00DE2480 /* ORSSerialPort.m */,
+				8F4EDD1C22F9C31E00DE2480 /* ORSSerialPacketDescriptor.h */,
+				8F4EDD1D22F9C31E00DE2480 /* ORSSerialBuffer.h */,
+				8F4EDD1E22F9C31E00DE2480 /* ORSSerialRequest.h */,
+				8F4EDD1F22F9C31E00DE2480 /* ORSSerialPortManager.h */,
+			);
+			path = ORSSerialPort;
+			sourceTree = "<group>";
+		};
 		8FA8B6C222F8408A00B2E1A8 = {
 			isa = PBXGroup;
 			children = (
@@ -55,13 +90,16 @@
 		8FA8B6CD22F8408A00B2E1A8 /* S4AEnvironmentalMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				8F4EDD1522F9C31E00DE2480 /* ORSSerialPort */,
 				8FA8B6CE22F8408A00B2E1A8 /* AppDelegate.swift */,
+				8F4EDD1222F9BF7F00DE2480 /* EnvironmentModel.swift */,
 				8FA8B6D022F8408A00B2E1A8 /* ContentView.swift */,
 				8FA8B6D222F8408C00B2E1A8 /* Assets.xcassets */,
 				8FA8B6D722F8408C00B2E1A8 /* Main.storyboard */,
 				8FA8B6DA22F8408C00B2E1A8 /* Info.plist */,
 				8FA8B6DB22F8408C00B2E1A8 /* S4AEnvironmentalMonitor.entitlements */,
 				8FA8B6D422F8408C00B2E1A8 /* Preview Content */,
+				8F4EDD2522F9CB9B00DE2480 /* ERM.h */,
 			);
 			path = S4AEnvironmentalMonitor;
 			sourceTree = "<group>";
@@ -145,8 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4EDD2222F9C31E00DE2480 /* ORSSerialRequest.m in Sources */,
 				8FA8B6D122F8408A00B2E1A8 /* ContentView.swift in Sources */,
+				8F4EDD2022F9C31E00DE2480 /* ORSSerialPacketDescriptor.m in Sources */,
+				8F4EDD2422F9C31E00DE2480 /* ORSSerialPort.m in Sources */,
+				8F4EDD1322F9BF7F00DE2480 /* EnvironmentModel.swift in Sources */,
 				8FA8B6CF22F8408A00B2E1A8 /* AppDelegate.swift in Sources */,
+				8F4EDD2322F9C31E00DE2480 /* ORSSerialPortManager.m in Sources */,
+				8F4EDD2122F9C31E00DE2480 /* ORSSerialBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +337,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.S4AEnvironmentalMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = S4AEnvironmentalMonitor/ERM.h;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -315,8 +361,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.S4AEnvironmentalMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = S4AEnvironmentalMonitor/ERM.h;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

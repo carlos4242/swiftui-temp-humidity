@@ -13,7 +13,7 @@ import SwiftUI
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
-
+    var environmentModel: EnvironmentModel?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
@@ -24,8 +24,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.center()
         window.setFrameAutosaveName("Main Window")
 
-        window.contentView = NSHostingView(rootView: ContentView())
+        let environmentModel = EnvironmentModel()
+        environmentModel.monitoring = true
+        self.environmentModel = environmentModel
 
+        window.contentView = NSHostingView(rootView: ContentView(environmentValues: environmentModel))
         window.makeKeyAndOrderFront(nil)
     }
 

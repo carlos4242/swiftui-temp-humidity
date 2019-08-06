@@ -9,9 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    var environmentValues: EnvironmentModel
+
     var body: some View {
-        Text("Hello World")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        HStack() {
+            Spacer()
+            VStack(alignment: .leading) {
+                Spacer()
+                Text("Temperature:\n\(environmentValues.temperatureDescription)").lineLimit(0)
+                Spacer()
+                Text("Humidity:\n\(environmentValues.humidityDescription)").lineLimit(0)
+                Spacer()
+            }
+            .font(.title)
+            .foregroundColor(Color.white)
+            Spacer()
+        }
+        .background(Color(hue: 0.73, saturation: 0.753, brightness: 0.45))
+
     }
 }
 
@@ -19,7 +34,10 @@ struct ContentView: View {
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let environmentModel = EnvironmentModel()
+        environmentModel.temperature = 11
+        environmentModel.humidityPct = 22
+        return ContentView(environmentValues: environmentModel)
     }
 }
 #endif
